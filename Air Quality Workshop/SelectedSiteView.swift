@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct SelectedSiteView: View {
+    @Binding var selectedSiteId: String?
+    
     var body: some View {
         VStack {
-            Text("Elsternwick").font(.headline)
+            Text(selectedSiteId ?? "").font(.headline)
             HStack {
                 Text("CO2")
                 Spacer()
@@ -27,6 +29,6 @@ struct SelectedSiteView: View {
 
 struct SelectedSiteView_Previews: PreviewProvider {
     static var previews: some View {
-        SelectedSiteView()
+        SelectedSiteView(selectedSiteId: .constant("Elsternwick"))
     }
 }

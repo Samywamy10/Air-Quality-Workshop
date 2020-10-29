@@ -8,23 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selectedSiteId: String?
+    
     var body: some View {
-        VStack {
-            Text("Select your nearest monitoring site").font(.headline)
-            List {
-                Button(action: {}) {
-                    Text("Abbotsford")
+        if(selectedSiteId == nil) {
+            VStack {
+                Text("Select your nearest monitoring site").font(.headline)
+                List {
+                    Button(action: {
+                        selectedSiteId = "Abbotsford"
+                    }) {
+                        Text("Abbotsford")
+                    }
+                    
+                    Button(action: {
+                        selectedSiteId = "Docklands"
+                    }) {
+                        Text("Docklands")
+                    }
+                    
+                    Button(action: {
+                        selectedSiteId = "Elsternwick"
+                    }) {
+                        Text("Elsternwick")
+                    }
                 }
-                
-                Button(action: {}) {
-                    Text("Docklands")
-                }
-                
-                Button(action: {}) {
-                    Text("Elsternwick")
-                }
-            }
-        }.padding()
+            }.padding()
+        } else {
+            SelectedSiteView(selectedSiteId: $selectedSiteId)
+        }
+        
     }
 }
 

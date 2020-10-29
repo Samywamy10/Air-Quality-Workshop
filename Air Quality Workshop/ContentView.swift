@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Select your nearest monitoring site")
+            Text("Select your nearest monitoring site").font(.headline)
             List {
                 Button(action: {}) {
                     Text("Abbotsford")
@@ -24,7 +24,7 @@ struct ContentView: View {
                     Text("Elsternwick")
                 }
             }
-        }
+        }.padding()
     }
 }
 

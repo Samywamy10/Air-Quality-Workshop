@@ -10,18 +10,18 @@ import SwiftUI
 struct SelectedSiteView: View {
     var body: some View {
         VStack {
-            Text("Elsternwick")
+            Text("Elsternwick").font(.headline)
             HStack {
                 Text("CO2")
                 Spacer()
                 Text("1.20ppm")
-            }
+            }.padding()
             HStack {
                 Text("Visibility")
                 Spacer()
                 Text("20m")
-            }
-        }
+            }.padding()
+        }.padding()
     }
 }
 

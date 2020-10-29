@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		226A5E17254A6E7C00FEF1AF /* Air_Quality_WorkshopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226A5E16254A6E7C00FEF1AF /* Air_Quality_WorkshopApp.swift */; };
+		226A5E19254A6E7C00FEF1AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226A5E18254A6E7C00FEF1AF /* ContentView.swift */; };
+		226A5E1B254A6E7D00FEF1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226A5E1A254A6E7D00FEF1AF /* Assets.xcassets */; };
+		226A5E1E254A6E7D00FEF1AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226A5E1D254A6E7D00FEF1AF /* Preview Assets.xcassets */; };
+		226A5E29254A6E7E00FEF1AF /* Air_Quality_WorkshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226A5E28254A6E7E00FEF1AF /* Air_Quality_WorkshopTests.swift */; };
+		226A5E34254A6E7E00FEF1AF /* Air_Quality_WorkshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226A5E33254A6E7E00FEF1AF /* Air_Quality_WorkshopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		226A5E25254A6E7E00FEF1AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226A5E0B254A6E7C00FEF1AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226A5E12254A6E7C00FEF1AF;
+			remoteInfo = "Air Quality Workshop";
+		};
+		226A5E30254A6E7E00FEF1AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226A5E0B254A6E7C00FEF1AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226A5E12254A6E7C00FEF1AF;
+			remoteInfo = "Air Quality Workshop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		226A5E13254A6E7C00FEF1AF /* Air Quality Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air Quality Workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		226A5E16254A6E7C00FEF1AF /* Air_Quality_WorkshopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_Quality_WorkshopApp.swift; sourceTree = "<group>"; };
+		226A5E18254A6E7C00FEF1AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		226A5E1A254A6E7D00FEF1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		226A5E1D254A6E7D00FEF1AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		226A5E1F254A6E7D00FEF1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226A5E24254A6E7E00FEF1AF /* Air Quality WorkshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air Quality WorkshopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		226A5E28254A6E7E00FEF1AF /* Air_Quality_WorkshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_Quality_WorkshopTests.swift; sourceTree = "<group>"; };
+		226A5E2A254A6E7E00FEF1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226A5E2F254A6E7E00FEF1AF /* Air Quality WorkshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air Quality WorkshopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		226A5E33254A6E7E00FEF1AF /* Air_Quality_WorkshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_Quality_WorkshopUITests.swift; sourceTree = "<group>"; };
+		226A5E35254A6E7E00FEF1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226A5E10254A6E7C00FEF1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226A5E21254A6E7E00FEF1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226A5E2C254A6E7E00FEF1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226A5E0A254A6E7C00FEF1AF = {
+			isa = PBXGroup;
+			children = (
+				226A5E15254A6E7C00FEF1AF /* Air Quality Workshop */,
+				226A5E27254A6E7E00FEF1AF /* Air Quality WorkshopTests */,
+				226A5E32254A6E7E00FEF1AF /* Air Quality WorkshopUITests */,
+				226A5E14254A6E7C00FEF1AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		226A5E14254A6E7C00FEF1AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226A5E13254A6E7C00FEF1AF /* Air Quality Workshop.app */,
+				226A5E24254A6E7E00FEF1AF /* Air Quality WorkshopTests.xctest */,
+				226A5E2F254A6E7E00FEF1AF /* Air Quality WorkshopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		226A5E15254A6E7C00FEF1AF /* Air Quality Workshop */ = {
+			isa = PBXGroup;
+			children = (
+				226A5E16254A6E7C00FEF1AF /* Air_Quality_WorkshopApp.swift */,
+				226A5E18254A6E7C00FEF1AF /* ContentView.swift */,
+				226A5E1A254A6E7D00FEF1AF /* Assets.xcassets */,
+				226A5E1F254A6E7D00FEF1AF /* Info.plist */,
+				226A5E1C254A6E7D00FEF1AF /* Preview Content */,
+			);
+			path = "Air Quality Workshop";
+			sourceTree = "<group>";
+		};
+		226A5E1C254A6E7D00FEF1AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				226A5E1D254A6E7D00FEF1AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		226A5E27254A6E7E00FEF1AF /* Air Quality WorkshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				226A5E28254A6E7E00FEF1AF /* Air_Quality_WorkshopTests.swift */,
+				226A5E2A254A6E7E00FEF1AF /* Info.plist */,
+			);
+			path = "Air Quality WorkshopTests";
+			sourceTree = "<group>";
+		};
+		226A5E32254A6E7E00FEF1AF /* Air Quality WorkshopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				226A5E33254A6E7E00FEF1AF /* Air_Quality_WorkshopUITests.swift */,
+				226A5E35254A6E7E00FEF1AF /* Info.plist */,
+			);
+			path = "Air Quality WorkshopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		226A5E12254A6E7C00FEF1AF /* Air Quality Workshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226A5E38254A6E7E00FEF1AF /* Build configuration list for PBXNativeTarget "Air Quality Workshop" */;
+			buildPhases = (
+				226A5E0F254A6E7C00FEF1AF /* Sources */,
+				226A5E10254A6E7C00FEF1AF /* Frameworks */,
+				226A5E11254A6E7C00FEF1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Air Quality Workshop";
+			productName = "Air Quality Workshop";
+			productReference = 226A5E13254A6E7C00FEF1AF /* Air Quality Workshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		226A5E23254A6E7E00FEF1AF /* Air Quality WorkshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226A5E3B254A6E7E00FEF1AF /* Build configuration list for PBXNativeTarget "Air Quality WorkshopTests" */;
+			buildPhases = (
+				226A5E20254A6E7E00FEF1AF /* Sources */,
+				226A5E21254A6E7E00FEF1AF /* Frameworks */,
+				226A5E22254A6E7E00FEF1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226A5E26254A6E7E00FEF1AF /* PBXTargetDependency */,
+			);
+			name = "Air Quality WorkshopTests";
+			productName = "Air Quality WorkshopTests";
+			productReference = 226A5E24254A6E7E00FEF1AF /* Air Quality WorkshopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		226A5E2E254A6E7E00FEF1AF /* Air Quality WorkshopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226A5E3E254A6E7E00FEF1AF /* Build configuration list for PBXNativeTarget "Air Quality WorkshopUITests" */;
+			buildPhases = (
+				226A5E2B254A6E7E00FEF1AF /* Sources */,
+				226A5E2C254A6E7E00FEF1AF /* Frameworks */,
+				226A5E2D254A6E7E00FEF1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226A5E31254A6E7E00FEF1AF /* PBXTargetDependency */,
+			);
+			name = "Air Quality WorkshopUITests";
+			productName = "Air Quality WorkshopUITests";
+			productReference = 226A5E2F254A6E7E00FEF1AF /* Air Quality WorkshopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		226A5E0B254A6E7C00FEF1AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					226A5E12254A6E7C00FEF1AF = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					226A5E23254A6E7E00FEF1AF = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 226A5E12254A6E7C00FEF1AF;
+					};
+					226A5E2E254A6E7E00FEF1AF = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 226A5E12254A6E7C00FEF1AF;
+					};
+				};
+			};
+			buildConfigurationList = 226A5E0E254A6E7C00FEF1AF /* Build configuration list for PBXProject "Air Quality Workshop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 226A5E0A254A6E7C00FEF1AF;
+			productRefGroup = 226A5E14254A6E7C00FEF1AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				226A5E12254A6E7C00FEF1AF /* Air Quality Workshop */,
+				226A5E23254A6E7E00FEF1AF /* Air Quality WorkshopTests */,
+				226A5E2E254A6E7E00FEF1AF /* Air Quality WorkshopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		226A5E11254A6E7C00FEF1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226A5E1E254A6E7D00FEF1AF /* Preview Assets.xcassets in Resources */,
+				226A5E1B254A6E7D00FEF1AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226A5E22254A6E7E00FEF1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226A5E2D254A6E7E00FEF1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		226A5E0F254A6E7C00FEF1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226A5E19254A6E7C00FEF1AF /* ContentView.swift in Sources */,
+				226A5E17254A6E7C00FEF1AF /* Air_Quality_WorkshopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226A5E20254A6E7E00FEF1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226A5E29254A6E7E00FEF1AF /* Air_Quality_WorkshopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226A5E2B254A6E7E00FEF1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226A5E34254A6E7E00FEF1AF /* Air_Quality_WorkshopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		226A5E26254A6E7E00FEF1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 226A5E12254A6E7C00FEF1AF /* Air Quality Workshop */;
+			targetProxy = 226A5E25254A6E7E00FEF1AF /* PBXContainerItemProxy */;
+		};
+		226A5E31254A6E7E00FEF1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 226A5E12254A6E7C00FEF1AF /* Air Quality Workshop */;
+			targetProxy = 226A5E30254A6E7E00FEF1AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		226A5E36254A6E7E00FEF1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		226A5E37254A6E7E00FEF1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		226A5E39254A6E7E00FEF1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Air Quality Workshop/Preview Content\"";
+				DEVELOPMENT_TEAM = N745X7KD5G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Air Quality Workshop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamWright.Air-Quality-Workshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226A5E3A254A6E7E00FEF1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Air Quality Workshop/Preview Content\"";
+				DEVELOPMENT_TEAM = N745X7KD5G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Air Quality Workshop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamWright.Air-Quality-Workshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		226A5E3C254A6E7E00FEF1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N745X7KD5G;
+				INFOPLIST_FILE = "Air Quality WorkshopTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamWright.Air-Quality-WorkshopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Air Quality Workshop.app/Air Quality Workshop";
+			};
+			name = Debug;
+		};
+		226A5E3D254A6E7E00FEF1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N745X7KD5G;
+				INFOPLIST_FILE = "Air Quality WorkshopTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamWright.Air-Quality-WorkshopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Air Quality Workshop.app/Air Quality Workshop";
+			};
+			name = Release;
+		};
+		226A5E3F254A6E7E00FEF1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N745X7KD5G;
+				INFOPLIST_FILE = "Air Quality WorkshopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamWright.Air-Quality-WorkshopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Air Quality Workshop";
+			};
+			name = Debug;
+		};
+		226A5E40254A6E7E00FEF1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N745X7KD5G;
+				INFOPLIST_FILE = "Air Quality WorkshopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SamWright.Air-Quality-WorkshopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Air Quality Workshop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		226A5E0E254A6E7C00FEF1AF /* Build configuration list for PBXProject "Air Quality Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226A5E36254A6E7E00FEF1AF /* Debug */,
+				226A5E37254A6E7E00FEF1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226A5E38254A6E7E00FEF1AF /* Build configuration list for PBXNativeTarget "Air Quality Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226A5E39254A6E7E00FEF1AF /* Debug */,
+				226A5E3A254A6E7E00FEF1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226A5E3B254A6E7E00FEF1AF /* Build configuration list for PBXNativeTarget "Air Quality WorkshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226A5E3C254A6E7E00FEF1AF /* Debug */,
+				226A5E3D254A6E7E00FEF1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226A5E3E254A6E7E00FEF1AF /* Build configuration list for PBXNativeTarget "Air Quality WorkshopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226A5E3F254A6E7E00FEF1AF /* Debug */,
+				226A5E40254A6E7E00FEF1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 226A5E0B254A6E7C00FEF1AF /* Project object */;
+}

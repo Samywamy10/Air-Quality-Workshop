@@ -9,8 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Select your nearest monitoring site")
+            List {
+                Button(action: {}) {
+                    Text("Abbotsford")
+                }
+                
+                Button(action: {}) {
+                    Text("Docklands")
+                }
+                
+                Button(action: {}) {
+                    Text("Elsternwick")
+                }
+            }
+        }
     }
 }
 

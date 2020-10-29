@@ -13,6 +13,7 @@
 		226A5E1E254A6E7D00FEF1AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226A5E1D254A6E7D00FEF1AF /* Preview Assets.xcassets */; };
 		226A5E29254A6E7E00FEF1AF /* Air_Quality_WorkshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226A5E28254A6E7E00FEF1AF /* Air_Quality_WorkshopTests.swift */; };
 		226A5E34254A6E7E00FEF1AF /* Air_Quality_WorkshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226A5E33254A6E7E00FEF1AF /* Air_Quality_WorkshopUITests.swift */; };
+		226A5E45254A77AF00FEF1AF /* SelectedSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226A5E44254A77AF00FEF1AF /* SelectedSiteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		226A5E2F254A6E7E00FEF1AF /* Air Quality WorkshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air Quality WorkshopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226A5E33254A6E7E00FEF1AF /* Air_Quality_WorkshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_Quality_WorkshopUITests.swift; sourceTree = "<group>"; };
 		226A5E35254A6E7E00FEF1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226A5E44254A77AF00FEF1AF /* SelectedSiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedSiteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				226A5E16254A6E7C00FEF1AF /* Air_Quality_WorkshopApp.swift */,
 				226A5E18254A6E7C00FEF1AF /* ContentView.swift */,
+				226A5E44254A77AF00FEF1AF /* SelectedSiteView.swift */,
 				226A5E1A254A6E7D00FEF1AF /* Assets.xcassets */,
 				226A5E1F254A6E7D00FEF1AF /* Info.plist */,
 				226A5E1C254A6E7D00FEF1AF /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226A5E45254A77AF00FEF1AF /* SelectedSiteView.swift in Sources */,
 				226A5E19254A6E7C00FEF1AF /* ContentView.swift in Sources */,
 				226A5E17254A6E7C00FEF1AF /* Air_Quality_WorkshopApp.swift in Sources */,
 			);

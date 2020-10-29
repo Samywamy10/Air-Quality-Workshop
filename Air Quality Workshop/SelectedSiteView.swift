@@ -9,26 +9,24 @@ import SwiftUI
 
 struct SelectedSiteView: View {
     @Binding var selectedSiteId: String?
+    @ObservedObject var epaData: EPAData
     
     var body: some View {
         VStack {
-            Text(selectedSiteId ?? "").font(.headline)
-            HStack {
-                Text("CO2")
-                Spacer()
-                Text("1.20ppm")
-            }.padding()
-            HStack {
-                Text("Visibility")
-                Spacer()
-                Text("20m")
-            }.padding()
+            Text(epaData.sites.first { $0.siteID == selectedSiteId}?.siteName ?? "Unknown").font(.headline)
+            ForEach(epaData.airQualityParameters, id: \.name) { airQualityParameter in
+                HStack {
+                    Text(airQualityParameter.name)
+                    Spacer()
+                    Text("\(airQualityParameter.value)\(airQualityParameter.unit)")
+                }.padding()
+            }
         }.padding()
     }
 }
 
 struct SelectedSiteView_Previews: PreviewProvider {
     static var previews: some View {
-        SelectedSiteView(selectedSiteId: .constant("Elsternwick"))
+        SelectedSiteView(selectedSiteId: .constant("Elsternwick"), epaData: EPAData())
     }
 }

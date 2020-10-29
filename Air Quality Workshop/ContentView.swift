@@ -9,33 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     @State var selectedSiteId: String?
+    @StateObject var epaData = EPAData()
     
     var body: some View {
         if(selectedSiteId == nil) {
             VStack {
                 Text("Select your nearest monitoring site").font(.headline)
-                List {
+                List(epaData.sites, id: \.siteID) { site in
                     Button(action: {
-                        selectedSiteId = "Abbotsford"
+                        selectedSiteId = site.siteID
                     }) {
-                        Text("Abbotsford")
-                    }
-                    
-                    Button(action: {
-                        selectedSiteId = "Docklands"
-                    }) {
-                        Text("Docklands")
-                    }
-                    
-                    Button(action: {
-                        selectedSiteId = "Elsternwick"
-                    }) {
-                        Text("Elsternwick")
+                        Text(site.siteName)
                     }
                 }
             }.padding()
         } else {
-            SelectedSiteView(selectedSiteId: $selectedSiteId)
+            SelectedSiteView(selectedSiteId: $selectedSiteId, epaData: epaData)
         }
         
     }

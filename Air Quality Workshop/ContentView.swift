@@ -17,7 +17,9 @@ struct ContentView: View {
                 Text("Select your nearest monitoring site").font(.headline)
                 List(epaData.sites, id: \.siteID) { site in
                     Button(action: {
-                        selectedSiteId = site.siteID
+                        withAnimation {
+                            selectedSiteId = site.siteID
+                        }
                     }) {
                         Text(site.siteName)
                     }

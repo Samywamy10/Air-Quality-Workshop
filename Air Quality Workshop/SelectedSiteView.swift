@@ -13,6 +13,12 @@ struct SelectedSiteView: View {
     
     var body: some View {
         VStack {
+            Button("Back", action: {
+                    withAnimation {
+                        selectedSiteId = nil
+                        
+                    } 
+            })
             Text(epaData.sites.first { $0.siteID == selectedSiteId}?.siteName ?? "Unknown").font(.headline)
             ForEach(epaData.airQualityParameters, id: \.name) { airQualityParameter in
                 HStack {

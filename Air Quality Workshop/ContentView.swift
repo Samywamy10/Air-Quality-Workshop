@@ -22,11 +22,14 @@ struct ContentView: View {
                         Text(site.siteName)
                     }
                 }
-            }.padding()
+            }.padding().onAppear {
+                epaData.loadSitesList()
+            }
         } else {
-            SelectedSiteView(selectedSiteId: $selectedSiteId, epaData: epaData)
+            SelectedSiteView(selectedSiteId: $selectedSiteId, epaData: epaData).onAppear {
+                epaData.loadSiteData(siteId: selectedSiteId!)
+            }
         }
-        
     }
 }
 
